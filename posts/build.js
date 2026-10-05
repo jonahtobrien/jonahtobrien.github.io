@@ -32,4 +32,4 @@ const list = posts
 const template = fs.readFileSync("index.template.html", "utf8");
 fs.writeFileSync("_site/index.html", template.replace("<!-- POSTS -->", list));
 
-console.log(`Built ${posts.length} post(s).`);
+console.log(`Built ${posts.length} post(s).`); 
