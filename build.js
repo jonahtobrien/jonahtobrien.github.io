@@ -1,4 +1,3 @@
-js
 // build.js: turns the files in this repository into a finished website in _site/
 const fs = require("fs");
 
