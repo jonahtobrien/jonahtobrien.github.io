@@ -1,10 +1,12 @@
 title: My Loose Understanding of What Has Happened So Far
 date: 2026-10-06
 
+---
+
 This is a test to see if I need syntax beyond a title and date function to create a post. I just noticed the date is wrong on all posts so far, its actually Oct 5. Claude always has difficulty finding the correct date, I guess it really doesn't want to connect to a server when it thinks it unecessary. I should add a spell check if that is possible. I'm sure it is this interface is pretty incredible. I think this is the most impressed I've been in a while with AI.
 
 I decided to make an attempt at a website today. Mostly for the purposes of a blog, but it also serves as a way to learn a bit about programming. I wanted to create something as vanilla as possible. So we started with github as a host, though thinking back I wonder if I could host the site from this computer, I'm going to look into how that works but I think it a bit too advanced for starting out. Once the site was established and the font implemented I created two functions (I think (this is all just what I think is happening I'm asking Claude to describe it but I'm a total nunce)). 
 
 The first function Enables me to create a list of posts under the posts file. I was interested in how the site index that houses the CSS (font, etc) needed to be updated by hand on every post as well as the HTML, where I would originally post the articles. So first I had a seperate file for posts. After that I made a function, build.js, to ask the github site to update the index automatically everytime I uploaded to posts, the code looked complicated here. Finally I made an adjustment so that, in posts, when I went to create a new article I would only have to create title and date, no p or li or anything. Uncertain if thats going to work but this is a test for that as well as an update of my progress today. My hands are cold outsite, thats it for today.
 
-It failed to upload the text, I'm editing it then sending the changes again. Git was having issues 2 days ago.
+It failed to upload the text, I'm editing it then sending the changes again. Git was having issues 2 days ago. The issue was a lack of - line, lets see if it works.
